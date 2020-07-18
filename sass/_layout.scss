@@ -1,0 +1,17 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background: $color-bg;
+  display: flex;
+  justify-content: center;
+}
+
+.card-section {
+  //   border: 3px solid $color-white;
+  width: 90%;
+  // height: 100%;
+  margin-top: 10rem;
+  padding: 3rem 5rem;
+
+  display: flex;
+}

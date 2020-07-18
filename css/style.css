@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif; }
+
+.card {
+  cursor: pointer;
+  background-color: #333945;
+  color: #fff;
+  box-shadow: 0 0 4rem #000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 3rem;
+  width: 30rem;
+  transition: all 0.4s;
+  z-index: 1; }
+  .card:not(:last-child) {
+    margin-right: -15rem; }
+  .card__title {
+    font-size: 2.8rem;
+    color: #eaf0f1; }
+  .card__auther {
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .card__auther-box {
+      display: flex;
+      flex-direction: column;
+      align-self: stretch;
+      justify-content: center; }
+      .card__auther-box .name {
+        font-size: 1.7rem;
+        color: #a4b0bd; }
+      .card__auther-box .date {
+        font-size: 1.3rem;
+        color: #a4b0bd; }
+  .card__img-border {
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 50%;
+    position: relative;
+    background: linear-gradient(to top, #e6316d, #ff8802);
+    margin-right: 2rem;
+    align-self: center; }
+  .card__photo {
+    border: 3px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 8rem;
+    width: 8rem;
+    transform: translate(-50%, -50%);
+    filter: brightness(80%); }
+  .card__article {
+    font-size: 1.8rem;
+    color: #8395a7; }
+  .card:hover {
+    transform: translateY(-4rem);
+    transition: all 0.5s;
+    margin-right: -2rem;
+    margin-left: 0;
+    z-index: 1; }
+  .card:hover > *, .card:hover .name, .card:hover .date {
+    color: #eaf0f1; }
+  .card:hover .card__title {
+    color: transparent;
+    background: linear-gradient(to left, #e6316d, #ff8802);
+    -webkit-background-clip: text; }
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background: #2c3335;
+  display: flex;
+  justify-content: center; }
+
+.card-section {
+  width: 90%;
+  margin-top: 10rem;
+  padding: 3rem 5rem;
+  display: flex; }
+
+/*# sourceMappingURL=style.css.map */

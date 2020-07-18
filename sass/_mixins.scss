@@ -1,0 +1,5 @@
+@mixin bggradient($dir) {
+  background: linear-gradient(to $dir, $gradient-1, $gradient-2);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
